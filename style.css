@@ -1,6 +1,6 @@
 
     #planoDeFundo {
-        background-color: rgb(221, 215, 215);
+        background-color: rgb(179, 175, 175);
         margin: 5px;
     }
 
@@ -14,7 +14,12 @@
     .Paginas_pessoais {
         border-radius: 15%;
         text-align: center;
-
+        
+    }
+    .botão {
+        color: rgb(211, 50, 44);
+        line-height: 1cm;
+        
     }
 
     h1 {
@@ -60,4 +65,10 @@
 
     .destaques {
         color: rgb(39, 39, 83);
+        font-size: 20px;
     }
+    .voltar_ao_topo{
+    color: rgb(39, 39, 83);
+    font-size: 20px;
+    }
+    
