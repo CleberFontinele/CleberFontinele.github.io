@@ -18,11 +18,6 @@
         text-align: center;
     }
 
-    #foto {
-        border-radius: 40px;
-
-    }
-
     #descrição {
         color: rgba(3, 2, 49, 0.719);
         font-family: Arial, Helvetica, sans-serif;
@@ -33,13 +28,21 @@
         color: rgb(52, 116, 52);
     }
 
-    .indicadores {
+    .indicadores,
+    .habilidades,
+    .tecnicas,
+    .blogs_e_sites_recomendados,
+    .Paginas_pessoais {
         background-color: rgb(178, 228, 211);
         font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
-    p {
-        color:darkblue;
+    p,
+    .descrição_habilidades,
+    .descrição_tecnicas {
+        color: darkblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 </style>
 
@@ -60,18 +63,18 @@
             <em><strong> Brasileiro, moro em Guarulhos-SP.</strong></em>
     </p>
 
-    <h2 id="habilidades">Habilidades</h2>
+    <h2 class="habilidades">Habilidades</h2>
 
-    <ul>
-        <li>Trabalho em equipe</li>
-        <li>Respeito pela diversidade</li>
+    <ul class="descrição_habilidades">
+        <li><strong>Trabalho em equipe</strong> </li>
         <li>Organização e planejamento</li>
         <li>Pontualidade</li>
+        <li>Respeito pela diversidade</li>
     </ul>
-    
-    <h2 id="tecnicas">Ao longo do aprendizado na Trybe irei desenvolver as Habilidades Técnicas:</h2>
-    <ul>
-        <li>Soft skills</li>
+
+    <h2 class="tecnicas">Ao longo do aprendizado na Trybe, irei desenvolver as Habilidades Técnicas:</h2>
+    <ul class="descrição_tecnicas">
+        <li><strong>Soft skills</strong></li>
         <li>Rotinas de Trabalho</li>
         <li>Git</li>
         <li>JavaScript</li>
@@ -82,13 +85,13 @@
         <li>Express.js</li>
         <li>SQL</li>
     </ul>
-    <h2 id="blogs e sites recomendados">Blogs e Sites Recomendados</h2>
+    <h2 class="blogs_e_sites_recomendados">Blogs e Sites Recomendados</h2>
     <a target="_blank" href="https://www.alura.com.br/artigos">Blog da Alura</a><br>
     <a target="_blank" href="https://canaltech.com.br/">Canal Tech</a><br>
     <a target="_blank" href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso em video</a><br>
     <a target="_blank" href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe Deschamps</a>
     <br></br>
-    <h2>GitHub/LinkedIn</h2>
+    <h2 class="Paginas_pessoais">GitHub/LinkedIn</h2>
     <a target="_blank" href="https://github.com/CleberFontinele/Trybe">GitHub</a><br>
     <a target="_blank" href="https://www.linkedin.com/in/cleberfontineledesouza/">LinkedIn</a>
 
