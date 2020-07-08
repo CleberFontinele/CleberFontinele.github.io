@@ -6,107 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potifólio Web</title>
 </head>
-<style>
-    body {
-        background-color: rgb(221, 215, 215);
-    }
 
-    h1 {
-        color: darkblue;
-        font-style: italic;
-        font-family: unset;
-        text-align: center;
-    }
-
-    #descrição {
-        color: rgba(3, 2, 49, 0.719);
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-
-    h2,
-    #descrição {
-        color: rgb(52, 116, 52);
-    }
-
-    #descrição,
-    .indicadores,
-    #habilidades,
-    #tecnicas,
-    #blogs_e_sites_recomendados,
-    .Paginas_pessoais {
-        background-color: rgb(178, 228, 211);
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    p,
-    .descrição_habilidades,
-    .descrição_tecnicas,
-    .links_recomendados {
-        color: darkblue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-</style>
 
 <body>
     <h1>Cleber Fontinele de Souza</h1>
-    <ul class="indicadores">
-        <li><a href="#descrição">Descrição</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#blogs_e_sites_recomendados">Blogs e Sites Recomendados</a></li>
-        <li><a href="#tecnicas">Habilidades Técnicas:</a></li>
-    </ul>
-    <img id="foto" src="img/Cleber.jpg" alt="Cleber Sorrindo" width="200">
-    <br></br>
 
-    <h2 id="descrição">Descrição</h2>
-    <p>
-        Cleber Fontinele de Souza, 32 anos,<br>
-        Formado em Getão da Tecnologia da Informação,<br>
-        Estudante de Desenvolvimento Web,<br>
-        <em><strong> Brasileiro, moro em Guarulhos-SP.</strong></em>
-    </p>
+    <div id="planoDeFundo">
 
-    <h2 id="habilidades">Habilidades</h2>
+        <ul class="indicadores">
+            <li><a href="#descrição">Descrição</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#blogs_e_sites_recomendados">Blogs e Sites Recomendados</a></li>
+            <li><a href="#tecnicas">Habilidades Técnicas:</a></li>
+        </ul>
+        <div class="foto_perfil">
+            <img id="foto" src="img/Cleber.jpg" alt="Cleber Sorrindo, foto de perfil" width="200">
+        </div>
+        <br></br>
 
-    <ul class="descrição_habilidades">
-        <li><strong>Trabalho em equipe</strong> </li>
-        <li>Organização e planejamento</li>
-        <li>Pontualidade</li>
-        <li>Respeito pela diversidade</li>
-    </ul>
+        <h2 id="descrição">Descrição</h2>
+        <p>
+            Cleber Fontinele de Souza, 32 anos,<br>
+            Formado em Getão da Tecnologia da Informação,<br>
+            Estudante de Desenvolvimento Web,<br>
+            <em><strong> <span class="destaques">Brasileiro, moro em Guarulhos-SP.</span> </strong></em>
+        </p>
 
-    <h2 id="tecnicas">Ao longo do aprendizado na Trybe, irei desenvolver as Habilidades Técnicas:</h2>
-    <ul class="descrição_tecnicas">
-        <li><strong>Soft skills</strong></li>
-        <li>Rotinas de Trabalho</li>
-        <li>Git</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>Express.js</li>
-        <li>SQL</li>
-    </ul>
-    <h2 id="blogs_e_sites_recomendados">Blogs e Sites Recomendados</h2>
-    <a class="links_recomendados" target="_blank" href="https://www.alura.com.br/artigos">Blog da Alura</a><br>
-    <a class="links_recomendados" target="_blank" href="https://canaltech.com.br/">Canal Tech</a><br>
-    <a class="links_recomendados" target="_blank" href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso
-        em video</a><br>
-    <a class="links_recomendados" target="_blank" href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe
-        Deschamps</a>
-    <br></br>
-    <h2 class="Paginas_pessoais">GitHub/LinkedIn</h2>
-    <a target="_blank" href="https://github.com/CleberFontinele/Trybe">
-        <img src="img/GitHub.png" width="30"></a><br>
-    <a target="_blank" href="https://www.linkedin.com/in/cleberfontineledesouza/">
-        <img src="img/linkedin.jpg" width="30" height="25"></a>
+        <h2 id="habilidades">Habilidades</h2>
 
-    <br></br>
-    <li><a href="#foto">Voltar para Foto</a></li>
+        <ul class="descrição_habilidades">
+            <li><strong><span class="destaques">Trabalho em equipe</span></strong> </li>
+            <li>Organização e planejamento</li>
+            <li>Pontualidade</li>
+            <li>Respeito pela diversidade</li>
+        </ul>
 
+        <h2 id="tecnicas">Ao longo do aprendizado na Trybe, irei desenvolver as Habilidades Técnicas:</h2>
+        <ul class="descrição_tecnicas">
+            <li><strong><span class="destaques">Soft skills</span></strong></li>
+            <li>Rotinas de Trabalho</li>
+            <li>Git</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Express.js</li>
+            <li>SQL</li>
+        </ul>
+        <h2 id="blogs_e_sites_recomendados">Blogs e Sites Recomendados</h2>
+        <a class="links_recomendados" target="_blank" href="https://www.alura.com.br/artigos">Blog da Alura</a><br>
+        <a class="links_recomendados" target="_blank" href="https://canaltech.com.br/">Canal Tech</a><br>
+        <a class="links_recomendados" target="_blank"
+            href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso
+            em video</a><br>
+        <a class="links_recomendados" target="_blank"
+            href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe
+            Deschamps</a>
+        <br></br>
+        <h2 class="Paginas_pessoais">GitHub/LinkedIn</h2>
+        <a target="_blank" href="https://github.com/CleberFontinele/Trybe">
+            <img src="img/GitHub.png" width="30"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/cleberfontineledesouza/">
+            <img src="img/linkedin.jpg" width="30" height="25"></a>
+
+        <br></br>
+        <li><a href="#foto">Voltar para Foto</a></li>
+
+    </div>
 </body>
 
 </html>
