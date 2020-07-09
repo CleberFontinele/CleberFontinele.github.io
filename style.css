@@ -1,8 +1,14 @@
 
     #planoDeFundo {
         background-color: rgb(2, 2, 2);
+       
     }
+    .fundoFull {
+        margin: auto;
+        border: 5px solid rgb(3, 3, 3);
+        border-top: 5px solid rgb(0, 9, 63);
         
+    }    
     
     img,
     .foto_perfil,
@@ -14,11 +20,23 @@
     .Paginas_pessoais {
         border-radius: 15%;
         text-align: center;
-        ;
+    }
+        
+    img,
+    #descrição,
+    #habilidades,
+    #tecnicas,
+    #blogs_e_sites_recomendados,
+    .Paginas_pessoais
+    #tecnicas,
+    #blogs_e_sites_recomendados,
+    .Paginas_pessoais,
+    .indicadores{
+        border: 6px ridge blue;
     }
     
     .botão  {
-        color: rgb(0, 0, 0);
+        color: rgb(35, 26, 167);
         line-height: 1cm;
         margin-right: 50px;
         font-family: monospace;
@@ -37,7 +55,7 @@
         color: rgba(118, 247, 139, 0.719);
         font-family: Arial, Helvetica, sans-serif;
         
-    }
+         }
 
    
     #descrição,
@@ -64,15 +82,42 @@
         color: rgb(48, 134, 233);
         font-size: 20px;
     }
-
+    
     .links_recomendados {
-        color: rgb(14, 226, 241);
+        background-color: rgb(221, 32, 149);
+        color: rgb(3, 48, 85);
         font-size: 20px;
-        margin-right: 50px;
-        font-family: monospace;    
+        margin-right: 90px;
+        font-family: monospace;  
+        padding: 5px;  
+        border-radius: 20%;
+        
+        
         }
     .voltar_ao_topo{
-    color: rgb(254, 254, 255);
+    color: rgb(253, 62, 4);
     font-size: 20px;
+    margin-left: 100px;
     }
     
+
+    .foto_perfil {
+        width: 250px;
+            top: 20px;
+            left: 10px;
+            z-index: 1;
+            
+    }
+
+   
+    p {
+        position: absolute;
+        top: 200px;
+        left: 250px;
+        z-index: 2;
+        text-align: left;
+        padding: 10px;
+    }
+    a:hover {
+        background-color: deepskyblue;
+    }

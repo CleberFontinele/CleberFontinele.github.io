@@ -28,3 +28,19 @@ Defina uma cor base de background do seu Portfólio Web;
 Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
 
 Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
+
+Seu Portfólio Web deve ter ter um layout usando Box Model com as informações a seguir:
+
+Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+
+A descrição deve ficar ao lado da foto;
+
+Centralize seu nome na página;
+
+Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+
+Adicione margin e padding nos elementos com pelo menos 35px de distância;
+
+Coloque espaçamento entre os elementos para que você se sinta mais confortável com o que você fez;
+
+Coloque estilo somente nos ítens ímpares da lista das suas habilidades.
