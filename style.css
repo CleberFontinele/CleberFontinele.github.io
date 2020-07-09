@@ -1,9 +1,9 @@
 
     #planoDeFundo {
-        background-color: rgb(179, 175, 175);
-        margin: 5px;
+        background-color: rgb(2, 2, 2);
     }
-
+        
+    
     img,
     .foto_perfil,
     #descrição,
@@ -14,13 +14,15 @@
     .Paginas_pessoais {
         border-radius: 15%;
         text-align: center;
-        
+        ;
     }
-    .botão {
-        color: rgb(211, 50, 44);
+    
+    .botão  {
+        color: rgb(0, 0, 0);
         line-height: 1cm;
-        
-    }
+        margin-right: 50px;
+        font-family: monospace;
+        }
 
     h1 {
         color: darkblue;
@@ -32,18 +34,12 @@
 
 
     #descrição {
-        color: rgba(3, 2, 49, 0.719);
+        color: rgba(118, 247, 139, 0.719);
         font-family: Arial, Helvetica, sans-serif;
         
-
     }
 
-    h2,
-    #descrição {
-        color: rgb(52, 116, 52);
-    }
-
-
+   
     #descrição,
     .indicadores,
     #habilidades,
@@ -53,22 +49,30 @@
         background-color: rgb(178, 228, 211);
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
     }
 
     p,
     .descrição_habilidades,
-    .descrição_tecnicas,
-    .links_recomendados {
-        color: darkblue;
+    .descrição_tecnicas {
+        color: rgb(58, 228, 52);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
     }
 
     .destaques {
-        color: rgb(39, 39, 83);
+        color: rgb(48, 134, 233);
         font-size: 20px;
     }
+
+    .links_recomendados {
+        color: rgb(14, 226, 241);
+        font-size: 20px;
+        margin-right: 50px;
+        font-family: monospace;    
+        }
     .voltar_ao_topo{
-    color: rgb(39, 39, 83);
+    color: rgb(254, 254, 255);
     font-size: 20px;
     }
     
