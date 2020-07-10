@@ -47,6 +47,7 @@
         font-style: italic;
         font-family: unset;
         text-align: center;
+        font-size: 40px;
     }
 
 
@@ -76,6 +77,7 @@
         color: rgb(58, 228, 52);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
+        font-size: 20px;
     }
 
     .destaques {
@@ -103,6 +105,7 @@
 
     .foto_perfil {
         width: 250px;
+        
             top: 20px;
             left: 10px;
             z-index: 1;
