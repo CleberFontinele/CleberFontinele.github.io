@@ -26,7 +26,7 @@
     #habilidades,
     #tecnicas,
     #blogs_e_sites_recomendados,
-    .Paginas_pessoais
+    
     #tecnicas,
     #blogs_e_sites_recomendados,
     
@@ -98,7 +98,7 @@
     .voltar_ao_topo{
     color: rgb(255, 7, 7);
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 5px;
     }
     
 
@@ -128,7 +128,6 @@
         background-image: url("https://previews.123rf.com/images/stokkete/stokkete1504/stokkete150400023/38570405-businessman-working-at-office-desk-and-using-a-digital-tablet-computer-laptop-and-various-objects-al.jpg");
     }
 
-    
 
 /* 
     height: 250px;
